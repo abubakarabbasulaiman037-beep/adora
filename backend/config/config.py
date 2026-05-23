@@ -3,7 +3,7 @@ import secrets
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "ABBANDAYA"
+    PROJECT_NAME: str = "adora backend"
     VERSION: str = "1.0.0"
     API_V1_STR: str = "/api"
     CORS_ORIGINS: list = ["*"] # Change to specific domains in production
